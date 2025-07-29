@@ -21,19 +21,19 @@ Backend: Flask (Python)
 ML Model: scikit-learn (Linear Regression)
 Optional Deployment: Render / Vercel
 
-Project Structure
-Employee-Salary-Predictor
-│
-├── app.py → Main Flask application
-├── model.py → Model training script
-├── model.pkl → Trained Linear Regression model
-├── templates/ → Contains HTML file
-│ └── index.html → UI page for prediction
-├── static/ → CSS styling
-│ └── css/style.css
-├── Salary_Data.csv → Sample dataset
-├── requirements.txt → List of Python packages
-└── README.md → Project documentation
+Employee-Salary-Predictor:
+  app.py: "Main Flask application"
+  model.py: "Model training script"
+  model.pkl: "Trained Linear Regression model"
+  templates:
+    index.html: "UI page for prediction"
+  static:
+    css:
+      style.css: "CSS styling"
+  Salary_Data.csv: "Sample dataset"
+  requirements.txt: "List of Python packages"
+  README.md: "Project documentation"
+
 
 How to Run Locally
 Clone the Repository
